@@ -13,7 +13,7 @@ const defaultProducts: Product[] = [
     cartonPrice: 6752,
     colors: ['Silver', 'Black'],
     badge: 'best-seller',
-    image: '/images/products/products/electric-kettle-stainless.svg',
+    image: '/images/products/kettle-stainless-2l.jpg',
     description: 'Durable stainless steel electric kettle with fast heating and safety features.'
   },
   {
@@ -25,7 +25,7 @@ const defaultProducts: Product[] = [
     cartonQuantity: 20,
     cartonPrice: 14400,
     colors: ['Pink', 'White'],
-    image: '/images/products/products/electric-kettle-pink.svg',
+    image: '/images/products/kettle-pink-2l.jpg',
     description: 'Stylish pink electric kettle perfect for modern kitchens.'
   },
   {
@@ -38,7 +38,7 @@ const defaultProducts: Product[] = [
     cartonPrice: 16180,
     colors: ['White', 'Black'],
     badge: 'new-arrival',
-    image: '/images/products/products/electric-kettle-xiaomi.svg',
+    image: '/images/products/kettle-xiaomi-2l.jpg',
     description: 'Sleek Xiaomi-style design with efficient heating technology.'
   },
   {
@@ -50,7 +50,7 @@ const defaultProducts: Product[] = [
     cartonQuantity: 12,
     cartonPrice: 10788,
     colors: ['Transparent', 'Silver'],
-    image: '/images/products/kettle-glass.svg',
+    image: '/images/products/kettle-glass-2l.jpg',
     description: 'Premium glass kettle with stainless steel accents for elegant boiling.'
   },
   {
@@ -63,7 +63,7 @@ const defaultProducts: Product[] = [
     cartonPrice: 7548,
     colors: ['Silver', 'Gold'],
     badge: 'popular',
-    image: '/images/products/thermos-pot.svg',
+    image: '/images/products/thermos-pot-2l.jpg',
     description: 'Large capacity thermos pot for hot beverages and soups.'
   },
   {
@@ -75,7 +75,7 @@ const defaultProducts: Product[] = [
     cartonQuantity: 24,
     cartonPrice: 7320,
     colors: ['Blue', 'Red', 'Black', 'White'],
-    image: '/images/products/thermos-cup.svg',
+    image: '/images/products/thermos-cup-500ml.jpg',
     description: 'Compact thermos cup ideal for coffee and tea on the go.'
   },
   {
@@ -88,7 +88,7 @@ const defaultProducts: Product[] = [
     cartonPrice: 7320,
     colors: ['Black', 'Silver'],
     badge: 'new-arrival',
-    image: '/images/products/thermos-temp.svg',
+    image: '/images/products/thermos-cup-temp.jpg',
     description: 'Smart thermos with digital temperature display.'
   },
   {
@@ -100,7 +100,7 @@ const defaultProducts: Product[] = [
     cartonQuantity: 16,
     cartonPrice: 5744,
     colors: ['Multi-color'],
-    image: '/images/products/thermos-set.svg',
+    image: '/images/products/thermos-set-3cup.jpg',
     description: 'Complete thermos set for family use.'
   },
   {
@@ -113,7 +113,7 @@ const defaultProducts: Product[] = [
     cartonPrice: 10800,
     colors: ['White', 'Blue'],
     badge: 'popular',
-    image: '/images/products/iron-compact.svg',
+    image: '/images/products/iron-compact.jpg',
     description: 'Lightweight iron perfect for everyday use.'
   },
   {
@@ -125,7 +125,7 @@ const defaultProducts: Product[] = [
     cartonQuantity: 20,
     cartonPrice: 11700,
     colors: ['Silver', 'Black'],
-    image: '/images/products/iron-stainless.svg',
+    image: '/images/products/iron-stainless.jpg',
     description: 'Heavy-duty iron with premium stainless steel plate.'
   },
   {
@@ -137,7 +137,7 @@ const defaultProducts: Product[] = [
     cartonQuantity: 24,
     cartonPrice: 7344,
     colors: ['Black', 'White'],
-    image: '/images/products/water-pump-801.svg',
+    image: '/images/products/water-pump-801.jpg',
     description: 'Reliable water pump for dispensers and coolers.'
   },
   {
@@ -150,7 +150,7 @@ const defaultProducts: Product[] = [
     cartonPrice: 9504,
     colors: ['White', 'Silver'],
     badge: 'best-seller',
-    image: '/images/products/water-pump-013.svg',
+    image: '/images/products/water-pump-013.jpg',
     description: 'Quiet and efficient water pump for water dispensers.'
   },
   {
@@ -162,7 +162,7 @@ const defaultProducts: Product[] = [
     cartonQuantity: 24,
     cartonPrice: 9504,
     colors: ['Black'],
-    image: '/images/products/water-pump-h16.svg',
+    image: '/images/products/water-pump-h16.jpg',
     description: 'High-performance pump for commercial water dispensers.'
   },
   {
@@ -174,7 +174,7 @@ const defaultProducts: Product[] = [
     cartonQuantity: 40,
     cartonPrice: 10760,
     colors: ['White', 'Black'],
-    image: '/images/products/charger-universal.svg',
+    image: '/images/products/charger-universal.jpg',
     description: 'Versatile charger compatible with most devices.'
   },
   {
@@ -187,7 +187,7 @@ const defaultProducts: Product[] = [
     cartonPrice: 12600,
     colors: ['White', 'Black', 'Gold'],
     badge: 'popular',
-    image: '/images/products/charger-premium.svg',
+    image: '/images/products/charger-universal-premium.jpg',
     description: 'Premium fast-charging universal adapter.'
   },
   {
@@ -199,7 +199,7 @@ const defaultProducts: Product[] = [
     cartonQuantity: 40,
     cartonPrice: 14400,
     colors: ['White', 'Black'],
-    image: '/images/products/charger-foldable.svg',
+    image: '/images/products/charger-foldable.jpg',
     description: 'Space-saving foldable charger for travel.'
   },
   {
@@ -212,7 +212,7 @@ const defaultProducts: Product[] = [
     cartonPrice: 16960,
     colors: ['Black', 'Silver'],
     badge: 'new-arrival',
-    image: '/images/products/charger-foldable-premium.svg',
+    image: '/images/products/charger-foldable-premium.jpg',
     description: 'High-end dual-port foldable charger with QC3.0.'
   },
   {
@@ -224,7 +224,7 @@ const defaultProducts: Product[] = [
     cartonQuantity: 100,
     cartonPrice: 5500,
     colors: ['White', 'Black', 'Blue'],
-    image: '/images/products/cable-usb-c.svg',
+    image: '/images/products/cable-usb-c.jpg',
     description: 'Fast-charging USB-C cable for modern devices.'
   },
   {
@@ -237,7 +237,7 @@ const defaultProducts: Product[] = [
     cartonPrice: 7200,
     colors: ['White', 'Black'],
     badge: 'best-seller',
-    image: '/images/products/cable-lightning.svg',
+    image: '/images/products/cable-lightning.jpg',
     description: 'Reliable Lightning cable for iPhone and iPad.'
   },
   {
@@ -249,7 +249,7 @@ const defaultProducts: Product[] = [
     cartonQuantity: 80,
     cartonPrice: 7200,
     colors: ['White', 'Black'],
-    image: '/images/products/cable-pd-lightning.svg',
+    image: '/images/products/cable-pd-lightning.jpg',
     description: 'Fast-charging Lightning cable with Power Delivery.'
   },
   {
@@ -261,7 +261,7 @@ const defaultProducts: Product[] = [
     cartonQuantity: 80,
     cartonPrice: 7200,
     colors: ['White', 'Black', 'Red'],
-    image: '/images/products/cable-pd-type-c.svg',
+    image: '/images/products/cable-pd-type-c.jpg',
     description: 'PD Type-C cable for fast charging.'
   },
   {
@@ -273,7 +273,7 @@ const defaultProducts: Product[] = [
     cartonQuantity: 12,
     cartonPrice: 12960,
     colors: ['Black', 'White'],
-    image: '/images/products/powerbank-30k.svg',
+    image: '/images/products/powerbank-30k.jpg',
     description: 'High-capacity power bank with digital charge indicator.'
   },
   {
@@ -286,7 +286,7 @@ const defaultProducts: Product[] = [
     cartonPrice: 23748,
     colors: ['Black', 'Blue', 'Green'],
     badge: 'best-seller',
-    image: '/images/products/powerbank-solar-50k.svg',
+    image: '/images/products/powerbank-solar-50k.jpg',
     description: 'Solar-powered power bank perfect for outdoor use.'
   },
   {
@@ -298,7 +298,7 @@ const defaultProducts: Product[] = [
     cartonQuantity: 8,
     cartonPrice: 28800,
     colors: ['Black', 'Orange'],
-    image: '/images/products/powerbank-solar-80k.svg',
+    image: '/images/products/powerbank-solar-80k.jpg',
     description: 'Ultra-high capacity solar power bank for extended trips.'
   },
   {
@@ -311,7 +311,7 @@ const defaultProducts: Product[] = [
     cartonPrice: 27000,
     colors: ['Black', 'Silver'],
     badge: 'popular',
-    image: '/images/products/powerbank-solar-100k.svg',
+    image: '/images/products/powerbank-solar-100k.jpg',
     description: 'Massive capacity power bank with solar charging.'
   },
   {
@@ -323,7 +323,7 @@ const defaultProducts: Product[] = [
     cartonQuantity: 6,
     cartonPrice: 32400,
     colors: ['Black', 'Blue'],
-    image: '/images/products/powerbank-solar-160k.svg',
+    image: '/images/products/powerbank-solar-160k.jpg',
     description: 'Industrial-grade power bank for large-scale needs.'
   },
   {
@@ -335,7 +335,7 @@ const defaultProducts: Product[] = [
     cartonQuantity: 24,
     cartonPrice: 12960,
     colors: ['Black', 'White', 'Pink'],
-    image: '/images/products/powerbank-solar-10k.svg',
+    image: '/images/products/powerbank-solar-10k.jpg',
     description: 'Compact solar power bank for daily use.'
   },
   {
@@ -348,7 +348,7 @@ const defaultProducts: Product[] = [
     cartonPrice: 15120,
     colors: ['Black', 'Blue'],
     badge: 'popular',
-    image: '/images/products/powerbank-solar-20k.svg',
+    image: '/images/products/powerbank-solar-20k.jpg',
     description: 'Balanced capacity and portability with solar charging.'
   },
   {
@@ -360,7 +360,7 @@ const defaultProducts: Product[] = [
     cartonQuantity: 48,
     cartonPrice: 6960,
     colors: ['White', 'Black'],
-    image: '/images/products/earphones-typec.svg',
+    image: '/images/products/earphones-typec.jpg',
     description: 'Wired earphones with Type-C connection for modern phones.'
   },
   {
@@ -373,7 +373,7 @@ const defaultProducts: Product[] = [
     cartonPrice: 8640,
     colors: ['White', 'Black', 'Red'],
     badge: 'best-seller',
-    image: '/images/products/earphones-3.5mm.svg',
+    image: '/images/products/earphones-3.5mm.jpg',
     description: 'Universal 3.5mm earphones compatible with most devices.'
   },
   {
@@ -385,7 +385,7 @@ const defaultProducts: Product[] = [
     cartonQuantity: 36,
     cartonPrice: 12600,
     colors: ['Black', 'White'],
-    image: '/images/products/earphones-w895.svg',
+    image: '/images/products/earphones-w895.jpg',
     description: 'True wireless Bluetooth earphones with long battery life.'
   },
   {
@@ -398,7 +398,7 @@ const defaultProducts: Product[] = [
     cartonPrice: 10980,
     colors: ['White', 'Black'],
     badge: 'new-arrival',
-    image: '/images/products/earphones-4th-gen.svg',
+    image: '/images/products/earphones-4th-gen.jpg',
     description: 'Latest generation Bluetooth earbuds with improved connectivity.'
   },
   {
@@ -410,7 +410,7 @@ const defaultProducts: Product[] = [
     cartonQuantity: 36,
     cartonPrice: 14400,
     colors: ['Brown', 'Black'],
-    image: '/images/products/earphones-d4.svg',
+    image: '/images/products/earphones-d4.jpg',
     description: 'Premium leather-textured wireless earphones.'
   },
   {
@@ -422,7 +422,7 @@ const defaultProducts: Product[] = [
     cartonQuantity: 36,
     cartonPrice: 15840,
     colors: ['Black', 'Silver'],
-    image: '/images/products/earphones-q86.svg',
+    image: '/images/products/earphones-q86.jpg',
     description: 'Stylish camera-inspired wireless earphones.'
   },
   {
@@ -435,7 +435,7 @@ const defaultProducts: Product[] = [
     cartonPrice: 63000,
     colors: ['Gray', 'Blue', 'Beige'],
     badge: 'featured',
-    image: '/images/products/sofa-foldable.svg',
+    image: '/images/products/sofa-foldable.jpg',
     description: 'Versatile foldable sofa that converts into a bed.'
   },
   {
@@ -447,21 +447,12 @@ const defaultProducts: Product[] = [
     cartonQuantity: 1,
     cartonPrice: 7700,
     colors: ['Multi-color'],
-    image: '/images/products/rug-area.svg',
+    image: '/images/products/rug-area.jpg',
     description: 'Large area rug to enhance home décor.'
   }
 ]
 
 const defaultCategories: Category[] = [
-  { id: 'kitchen-appliances', name: 'Kitchen Appliances', icon: 'ChefHat' },
-  { id: 'thermos-products', name: 'Thermos Products', icon: 'Coffee' },
-  { id: 'home-care-appliances', name: 'Home Care Appliances', icon: 'Home' },
-  { id: 'water-dispensers', name: 'Water Dispensers', icon: 'Droplets' },
-  { id: 'chargers', name: 'Charging Accessories', icon: 'Zap' },
-  { id: 'charging-cables', name: 'Charging Cables', icon: 'Cable' },
-  { id: 'power-banks', name: 'Power Banks', icon: 'Battery' },
-  { id: 'audio-products', name: 'Audio Accessories', icon: 'Headphones' },
-  { id: 'furniture', name: 'Furniture', icon: 'Sofa' },
   { id: 'home-decor', name: 'Home Décor', icon: 'Image' }
 ]
 
