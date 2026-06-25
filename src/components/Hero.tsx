@@ -1,15 +1,43 @@
 import { motion } from 'framer-motion'
 import { Button } from './ui/Button'
 import { generateWhatsAppLink } from '../utils'
-import { Package, Truck, Shield, Clock } from 'lucide-react'
+import { Package, Truck, Shield, Clock, MessageCircle } from 'lucide-react'
+import { ProductGrid } from './ProductGrid'
 
 export function Hero() {
   const trustBadges = [
     { icon: Package, text: 'Nairobi-Based Supplier' },
-    { icon: Package, text: 'Wholesale Available' },
+    { icon: Truck, text: 'Wholesale Available' },
+    { icon: Clock, text: 'Fast WhatsApp Response' },
     { icon: Shield, text: 'Quality Assured' },
-    { icon: Clock, text: 'Fast Response Time' },
     { icon: Truck, text: 'Reliable Customer Support' }
+  ]
+
+  const featuredProducts = [
+    {
+      image: 'images/hero%20section%20images/Stainless%20Steel%20Electric%20Kettle.jfif',
+      name: 'Stainless Steel Electric Kettle',
+      price: 422,
+      category: 'Kitchen Appliances'
+    },
+    {
+      image: 'images/hero%20section%20images/Solar%20Power%20Bank.jpg',
+      name: 'Solar Power Bank',
+      price: 1200,
+      category: 'Electronics'
+    },
+    {
+      image: 'images/hero%20section%20images/Bluetooth%20Earbuds.jpg',
+      name: 'Bluetooth Earbuds',
+      price: 850,
+      category: 'Mobile Accessories'
+    },
+    {
+      image: 'images/hero%20section%20images/Foldable%20Sofa.jfif',
+      name: 'Foldable Sofa',
+      price: 3500,
+      category: 'Furniture'
+    }
   ]
 
   return (
@@ -20,7 +48,8 @@ export function Hero() {
       </div>
 
       <div className="max-w-screen-2xl mx-auto px-4 sm:px-6 md:px-8 lg:px-10 relative z-10">
-        <div className="grid lg:grid-cols-2 gap-8 md:gap-12 items-center min-h-screen py-12 md:py-20">
+        <div className="grid gap-8 md:gap-12 items-center min-h-screen py-12 md:py-20 lg:grid-cols-2">
+          {/* Left Side: Text Content */}
           <div className="space-y-6 md:space-y-8 text-center lg:text-left">
             <motion.h1
               className="font-heading font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl"
@@ -37,7 +66,7 @@ export function Hero() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.1 }}
             >
-              Supplying Nairobi with affordable and premium household products, mobile accessories, electronics, and lifestyle essentials.
+              Supplying Nairobi with affordable and premium household products, mobile accessories, electronics, furniture, and lifestyle essentials.
             </motion.p>
 
             <motion.div
@@ -46,12 +75,25 @@ export function Hero() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.2 }}
             >
-              <Button variant="gradient" size="lg" href="#products" className="w-full sm:w-auto min-h-[48px]">
-                Browse Catalogue
+              {/* Primary CTA: Order via WhatsApp */}
+              <Button
+                variant="gradient"
+                size="lg"
+                href={generateWhatsAppLink()}
+                className="w-full sm:w-auto min-h-[52px] flex items-center justify-center gap-2"
+              >
+                <MessageCircle size={20} className="flex-shrink-0" />
+                Order via WhatsApp
               </Button>
               
-              <Button variant="outline" size="lg" href={generateWhatsAppLink()} className="w-full sm:w-auto min-h-[48px]">
-                Order via WhatsApp
+              {/* Secondary CTA: Browse Catalogue */}
+              <Button
+                variant="outline"
+                size="lg"
+                href="#products"
+                className="w-full sm:w-auto min-h-[52px] flex items-center justify-center gap-2"
+              >
+                Browse Catalogue
               </Button>
             </motion.div>
 
@@ -64,7 +106,7 @@ export function Hero() {
               {trustBadges.map((badge, i: number) => (
                 <motion.div
                   key={badge.text}
-                  className="flex items-center gap-2"
+                  className="flex items-center gap-2 bg-white/10 rounded-xl px-3 py-2 backdrop-blur-sm"
                   initial={{ opacity: 0, x: -20 }}
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ delay: 0.3 + i * 0.1 }}
@@ -76,24 +118,26 @@ export function Hero() {
             </motion.div>
           </div>
 
+          {/* Right Side: Product Grid (Desktop) */}
           <motion.div
             className="relative hidden lg:block"
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, delay: 0.4 }}
           >
-            <div className="grid grid-cols-2 gap-4">
-              {[1, 2, 3, 4].map((_, i) => (
-                <motion.div
-                  key={i}
-                  className="aspect-square bg-white/10 rounded-xl backdrop-blur-sm"
-                  animate={{ y: [0, -10, 0] }}
-                  transition={{ duration: 3, repeat: Infinity, delay: i * 0.5 }}
-                />
-              ))}
-            </div>
+            <ProductGrid products={featuredProducts} />
           </motion.div>
         </div>
+
+        {/* Mobile Product Grid */}
+        <motion.div
+          className="lg:hidden mt-12"
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.5 }}
+        >
+          <ProductGrid products={featuredProducts} />
+        </motion.div>
       </div>
     </section>
   )

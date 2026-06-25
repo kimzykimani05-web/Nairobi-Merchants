@@ -74,26 +74,26 @@ export function ProductCard({ product, onQuickView }: ProductCardProps) {
           )}
         </div>
         
-        <div className="flex flex-col sm:flex-row gap-2 pt-3 mt-auto">
-          <Button
-            variant="outline"
-            size="sm"
-            onClick={() => onQuickView(product)}
-            className="w-full sm:flex-1 min-h-[44px]"
-          >
-            <Eye size={16} />
-            Quick View
-          </Button>
-          
-          <Button
-            variant="secondary"
-            size="sm"
-            href={generateWhatsAppLink(product)}
-            className="w-full sm:flex-1 min-h-[44px]"
-          >
-            <MessageCircle size={16} />
-            WhatsApp
-          </Button>
+        <div className="flex flex-col sm:flex-row gap-2 sm:gap-3 pt-3 sm:pt-4 mt-auto">
+<Button
+  variant="outline"
+  size="sm"
+  onClick={() => onQuickView(product)}
+  className="w-full sm:w-[100px] sm:flex-none min-h-[44px]"
+>
+  <Eye size={16} />
+  Quick View
+</Button>
+
+<Button
+  variant="secondary"
+  size="sm"
+  href={generateWhatsAppLink(product)}
+  className="w-full sm:w-[100px] sm:flex-none min-h-[44px]"
+>
+  <MessageCircle size={16} />
+  WhatsApp
+</Button>
         </div>
       </div>
     </motion.div>
