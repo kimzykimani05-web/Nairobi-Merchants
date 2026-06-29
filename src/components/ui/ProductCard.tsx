@@ -21,7 +21,7 @@ export function ProductCard({ product, onQuickView }: ProductCardProps) {
       
       <div className="aspect-square overflow-hidden relative flex-shrink-0">
         <img
-          src={product.image}
+          src={product.images[0]}
           alt={product.name}
           className="w-full h-full object-contain transition-transform duration-300 group-hover:scale-105"
           loading="lazy"

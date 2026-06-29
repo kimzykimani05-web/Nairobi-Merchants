@@ -4,6 +4,7 @@ import { Button } from './Button'
 import { Badge } from './Badge'
 import { formatPrice, generateWhatsAppLink } from '../../utils'
 import { X, MessageCircle, Package, Palette } from 'lucide-react'
+import { useState, useEffect } from 'react'
 
 interface ProductModalProps {
   product: Product | null
@@ -12,6 +13,14 @@ interface ProductModalProps {
 }
 
 export function ProductModal({ product, isOpen, onClose }: ProductModalProps) {
+  const [selectedImage, setSelectedImage] = useState('')
+
+  useEffect(() => {
+    if (product && product.images.length > 0) {
+      setSelectedImage(product.images[0])
+    }
+  }, [product?.id])
+
   if (!product) return null
 
   return (
@@ -44,13 +53,36 @@ export function ProductModal({ product, isOpen, onClose }: ProductModalProps) {
               </button>
               
               <div className="flex flex-col md:grid md:grid-cols-2 gap-4 md:gap-6">
-                <div className="aspect-square bg-neutral-light rounded-xl overflow-hidden flex-shrink-0">
-                  <img
-                    src={product.image}
-                    alt={product.name}
-                    className="w-full h-full object-contain"
-                    loading="lazy"
-                  />
+                <div className="space-y-3">
+                  <div className="aspect-square bg-neutral-light rounded-xl overflow-hidden flex-shrink-0">
+                    <img
+                      src={selectedImage}
+                      alt={product.name}
+                      className="w-full h-full object-contain"
+                      loading="lazy"
+                    />
+                  </div>
+                  {product.images.length > 1 && (
+                    <div className="flex gap-2 overflow-x-auto pb-2">
+                      {product.images.map((img, i) => (
+                        <button
+                          key={i}
+                          onClick={() => setSelectedImage(img)}
+                          className={`flex-shrink-0 w-16 h-16 rounded-lg overflow-hidden border-2 transition-colors ${
+                            selectedImage === img ? 'border-primary-blue' : 'border-transparent'
+                          }`}
+                          aria-label={`View image ${i + 1}`}
+                        >
+                          <img
+                            src={img}
+                            alt={`${product.name} ${i + 1}`}
+                            className="w-full h-full object-contain"
+                            loading="lazy"
+                          />
+                        </button>
+                      ))}
+                    </div>
+                  )}
                 </div>
                 
                 <div className="space-y-3 md:space-y-4">

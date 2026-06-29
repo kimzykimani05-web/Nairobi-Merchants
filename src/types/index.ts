@@ -7,8 +7,8 @@ export interface Product {
   cartonQuantity: number
   cartonPrice: number
   colors: string[]
+  images: string[]
   badge?: 'best-seller' | 'popular' | 'new-arrival' | 'featured'
-  image: string
   description: string
   published?: boolean
 }

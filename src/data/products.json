@@ -68,7 +68,9 @@
       "cartonQuantity": 16,
       "cartonPrice": 6752,
       "colors": [],
-      "image": "/images/Product Images/2L STAINLESS STEEL ELECTRIC KETTLE.jpg",
+      "images": [
+        "/images/Product Images/2L STAINLESS STEEL ELECTRIC KETTLE.jpg"
+      ],
       "description": "Capacity: 2.0L; Material: Stainless Steel + ABS Engineering Plastic; Max Power: 1000W-1500W; Heating Time: 6-10 minutes; Cable Length: 0.7m; Weight: 530g",
       "badge": "best-seller",
       "published": true
@@ -89,7 +91,9 @@
       "cartonQuantity": 20,
       "cartonPrice": 14400,
       "colors": [],
-      "image": "/images/Product Images/2.3L pink plastic electric.jpg",
+      "images": [
+        "/images/Product Images/2.3L pink plastic electric.jpg"
+      ],
       "description": "Capacity: 2.3L; Shell Material: Stainless Steel + ABS Engineering Plastic; Max Power: 1500W-2000W; Heating Time: 6-10 minutes; Cable Length: 0.7m; Weight: 800g",
       "published": true
     },
@@ -109,7 +113,9 @@
       "cartonQuantity": 20,
       "cartonPrice": 16180,
       "colors": [],
-      "image": "/images/Product Images/2.3L xiaomi green plastic electric kettle.jpg",
+      "images": [
+        "/images/Product Images/2.3L xiaomi green plastic electric kettle.jpg"
+      ],
       "description": "Capacity: 2.3L; Material: Stainless Steel + ABS Engineering Plastic; Max Power: 1000W-1500W; Heating Time: 6-10 minutes; Cable Length: 0.7m; Weight: 800g",
       "badge": "new-arrival",
       "published": true
@@ -130,7 +136,9 @@
       "cartonQuantity": 12,
       "cartonPrice": 10788,
       "colors": [],
-      "image": "/images/Product Images/2L glass electric kettle.jpg",
+      "images": [
+        "/images/Product Images/2L glass electric kettle.jpg"
+      ],
       "description": "Capacity: 1.8L; Shell Material: Stainless Steel + Glass; Max Power: 1000W-1500W; Heating Time: 6-10 minutes; Cable Length: 0.7m; Weight: 1000g",
       "published": true
     },
@@ -149,7 +157,9 @@
       "cartonQuantity": 24,
       "cartonPrice": 15096,
       "colors": [],
-      "image": "/images/Product Images/2L thermos pot.jpeg",
+      "images": [
+        "/images/Product Images/2L thermos pot.jpeg"
+      ],
       "description": "Material: Inner 304, Outer 201; Dimensions: 15*15*30cm; Heat Retention: 12 - 24 hours; Capacity: 2L; Six colors available",
       "badge": "popular",
       "published": true
@@ -168,7 +178,10 @@
       "cartonQuantity": 50,
       "cartonPrice": 15250,
       "colors": [],
-      "image": "/images/Product Images/thermos cup.jpg",
+      "images": [
+        "/images/Product Images/thermos cup - steel color.jpg",
+        "/images/Product Images/thermos cup - grey.jpeg"
+      ],
       "description": "Material: Inner 304, Outer 201; Capacity: 500ml; 4 colors: Red, Steel Color, Gold, Blue; Heat Retention: 12-24 hours",
       "published": true
     },
@@ -187,7 +200,9 @@
       "cartonQuantity": 50,
       "cartonPrice": 15250,
       "colors": [],
-      "image": "/images/Product Images/thermos cup with temperature display.jpeg",
+      "images": [
+        "/images/Product Images/thermos cup with temperature display.jpeg"
+      ],
       "description": "Material: Inner 304, Outer 201; Capacity: 500ml; 4 colors: Gradient Pink, Gradient Green, Gradient Blue, Gradient Purple; Heat Retention: 6-12 hours; With temperature display",
       "badge": "new-arrival",
       "published": true
@@ -206,7 +221,10 @@
       "cartonQuantity": 24,
       "cartonPrice": 8616,
       "colors": [],
-      "image": "/images/Product Images/thermos cup with 3-sup set.jpg",
+      "images": [
+        "/images/Product Images/thermos cup with 3-sup set.jpg",
+        "/images/Product Images/thermos cup with 3-sup set.jpeg"
+      ],
       "description": "Outer Material: 201, Inner: 304; Capacity: 500ml; Heat Retention: 6-12 hours; Colors: Gray, Black, Pink, Sea Blue, Steel Color",
       "published": true
     },
@@ -223,7 +241,9 @@
       "cartonQuantity": 20,
       "cartonPrice": 10800,
       "colors": [],
-      "image": "/images/Product Images/compact electric lron.png",
+      "images": [
+        "/images/Product Images/compact electric lron.png"
+      ],
       "description": "Soleplate Material: Teflon Non-Stick; Temperature Control: 5-level mechanical; Three colors: White, Red, Blue",
       "badge": "popular",
       "published": true
@@ -242,9 +262,11 @@
       "cartonQuantity": 20,
       "cartonPrice": 11700,
       "colors": [],
-      "image": "/images/Product Images/household electric lron.jpg",
+      "images": [
+        "/images/Product Images/household electric lron - product 10.jpg"
+      ],
       "description": "Soleplate Material: Teflon Non-Stick; Temperature Control: 5-level mechanical; Single color; Rated Power: 1000W",
-      "published": false
+      "published": true
     },
     {
       "id": "water-pump-801",
@@ -258,9 +280,12 @@
       "cartonQuantity": 60,
       "cartonPrice": 18360,
       "colors": [],
-      "image": "/images/Product Images/801#water dispenser.jpg",
+      "images": [
+        "/images/Product Images/801 water dispenser - black.jpg",
+        "/images/Product Images/801 water dispenser - white.jpg"
+      ],
       "description": "Single button; Colors: Black, White",
-      "published": false
+      "published": true
     },
     {
       "id": "water-pump-013",
@@ -274,10 +299,12 @@
       "cartonQuantity": 60,
       "cartonPrice": 23760,
       "colors": [],
-      "image": "/images/Product Images/013water dispenser.jpg",
+      "images": [
+        "/images/Product Images/013water dispenser - black.jpg"
+      ],
       "description": "Single button; Colors: Black, White",
       "badge": "best-seller",
-      "published": false
+      "published": true
     },
     {
       "id": "water-pump-h16",
@@ -292,9 +319,11 @@
       "cartonQuantity": 60,
       "cartonPrice": 23760,
       "colors": [],
-      "image": "/images/Product Images/H16water dispenser.jpg",
+      "images": [
+        "/images/Product Images/H16water dispenser - black.jpg"
+      ],
       "description": "Three models; Single button, three buttons; Colors: Black, White",
-      "published": false
+      "published": true
     },
     {
       "id": "charger-universal",
@@ -307,7 +336,9 @@
       "cartonQuantity": 500,
       "cartonPrice": 134500,
       "colors": [],
-      "image": "/images/Product Images/universal charger head.jpg",
+      "images": [
+        "/images/Product Images/universal charger head.jpg"
+      ],
       "description": "Interface: USB+PD, USB+PD+PD, USB+USB+PD+PD",
       "published": true
     },
@@ -322,10 +353,12 @@
       "cartonQuantity": 500,
       "cartonPrice": 157500,
       "colors": [],
-      "image": "",
+      "images": [
+        "/images/Product Images/universal charger head.jpg"
+      ],
       "description": "Interface: USB+PD, USB+PD+PD, USB+USB+PD+PD",
       "badge": "popular",
-      "published": false
+      "published": true
     },
     {
       "id": "charger-foldable",
@@ -339,9 +372,11 @@
       "cartonQuantity": 250,
       "cartonPrice": 90000,
       "colors": [],
-      "image": "",
+      "images": [
+        "/images/Product Images/foldable fast charger head - white.jpeg"
+      ],
       "description": "Interface: USB+PD; Charging",
-      "published": false
+      "published": true
     },
     {
       "id": "charger-foldable-premium",
@@ -355,7 +390,10 @@
       "cartonQuantity": 250,
       "cartonPrice": 132500,
       "colors": [],
-      "image": "/images/Product Images/foldable-fast-charger-head.jpg",
+      "images": [
+        "/images/Product Images/foldable fast charger head - white.jpeg",
+        "/images/Product Images/foldable-fast-charger-head - cream.jpg"
+      ],
       "description": "Power: 12W+12W; 20W+20W",
       "badge": "new-arrival",
       "published": true
@@ -372,7 +410,9 @@
       "cartonQuantity": 1000,
       "cartonPrice": 55000,
       "colors": [],
-      "image": "/images/Product Images/USB-TYPEC 6A charging cable.jpeg",
+      "images": [
+        "/images/Product Images/USB-TYPEC 6A charging cable.jpeg"
+      ],
       "description": "Cable length: 1m; Fast charging",
       "published": true
     },
@@ -388,10 +428,11 @@
       "cartonQuantity": 1000,
       "cartonPrice": 72000,
       "colors": [],
-      "image": "",
+      "images": [
+        "/images/Product Images/USB-apple charging cable.jpeg"
+      ],
       "description": "Cable length: 1m; Fast charging",
-      "badge": "best-seller",
-      "published": false
+      "published": true
     },
     {
       "id": "cable-pd-lightning",
@@ -405,9 +446,11 @@
       "cartonQuantity": 1000,
       "cartonPrice": 90000,
       "colors": [],
-      "image": "",
+      "images": [
+        "/images/Product Images/PD-apple-charging-cable.jpg"
+      ],
       "description": "Cable length: 1m; Fast charging",
-      "published": false
+      "published": true
     },
     {
       "id": "cable-pd-type-c",
@@ -421,7 +464,9 @@
       "cartonQuantity": 1000,
       "cartonPrice": 90000,
       "colors": [],
-      "image": "/images/Product Images/PD-TYPEC-charging-cable.jpg",
+      "images": [
+        "/images/Product Images/PD-TYPEC-charging-cable.jpg"
+      ],
       "description": "Cable length: 1m; Fast charging",
       "published": true
     },
@@ -442,7 +487,9 @@
       "cartonQuantity": 75,
       "cartonPrice": 81000,
       "colors": [],
-      "image": "/images/Product Images/30000mahdigital display power bank.jpg",
+      "images": [
+        "/images/Product Images/30000mahdigital display power bank.jpg"
+      ],
       "description": "Charging Power: 10W; Charging Protocol: AFC; Battery Type: Polymer Li-ion; Capacity: 30000mAh; Dimensions: 154*74*33mm; Dual Input Triple Output; Three colors (Two carton specs)",
       "published": true
     },
@@ -463,9 +510,11 @@
       "cartonQuantity": 50,
       "cartonPrice": 54000,
       "colors": [],
-      "image": "",
+      "images": [
+        "/images/Product Images/30000mahdigital display power bank.jpg"
+      ],
       "description": "Charging Power: 10W; Charging Protocol: AFC; Battery Type: Polymer Li-ion; Capacity: 30000mAh; Dimensions: 154*74*33mm; Dual Input Triple Output; Three colors (Two carton specs)",
-      "published": false
+      "published": true
     },
     {
       "id": "powerbank-solar-50k",
@@ -485,7 +534,10 @@
       "cartonQuantity": 24,
       "cartonPrice": 47496,
       "colors": [],
-      "image": "",
+      "badge": "best-seller",
+      "images": [
+        "/images/Product Images/power bank-5W large capacity outdoor solar power bank.jpg"
+      ],
       "description": "Charging Power: 22.5W; Charging Protocol: PD3.0; Battery Type: Polymer Li-ion; Capacity: 50000mAh; Dimensions: 149*71.5*43mm; Dual Input Triple Output; Two colors; LED Light",
       "badge": "best-seller",
       "published": false
@@ -508,7 +560,10 @@
       "cartonQuantity": 24,
       "cartonPrice": 86400,
       "colors": [],
-      "image": "",
+      "images": [
+        "/images/Product Images/power bank-8W large capacity outdoor solar power bank -black.jpeg",
+        "/images/Product Images/power bank-8W large capacity outdoor solar power bank -white.jpeg"
+      ],
       "description": "Charging Power: 22.5W; Charging Protocol: PD3.0; Battery Type: Polymer Li-ion; Capacity: 80000mAh; Dimensions: 149*71.5*43mm; Dual Input Triple Output; Two colors; LED Light",
       "published": false
     },
@@ -530,7 +585,11 @@
       "cartonQuantity": 24,
       "cartonPrice": 108000,
       "colors": [],
-      "image": "",
+      "badge": "popular",
+      "images": [
+        "/images/Product Images/power bank-16W large capacity outdoor solar power bank-black.jpg",
+        "/images/Product Images/power bank-16W large capacity outdoor solar power bank-white.jpeg"
+      ],
       "description": "Charging Power: 22.5W; Charging Protocol: PD3.0; Battery Type: Polymer Li-ion; Capacity: 100000mAh; Dimensions: 149*71.5*43mm; Dual Input Triple Output; Two colors; LED Light",
       "badge": "popular",
       "published": false
@@ -553,8 +612,12 @@
       "cartonQuantity": 24,
       "cartonPrice": 129600,
       "colors": [],
-      "image": "",
+      "images": [
+        "/images/Product Images/power bank-16W large capacity outdoor solar power bank-black.jpg",
+        "/images/Product Images/power bank-16W large capacity outdoor solar power bank-white.jpeg"
+      ],
       "description": "Charging Power: 22.5W; Charging Protocol: PD3.0; Battery Type: Polymer Li-ion; Capacity: 160000mAh; Dimensions: 149*71.5*43mm; Dual Input Triple Output; Two colors; LED Light",
+      "badge": "popular",
       "published": false
     },
     {
@@ -575,9 +638,13 @@
       "cartonQuantity": 125,
       "cartonPrice": 67500,
       "colors": [],
-      "image": "",
+      "images": [
+        "/images/Product Images/power bank-1W solar power bank - black.jpeg",
+        "/images/Product Images/power bank-1W solar power bank -white.jpeg",
+        "/images/Product Images/power bank-1W solar power bank.jpg"
+      ],
       "description": "Charging Power: 10W; Charging Protocol: PD2.0; Battery Type: Polymer Li-ion; Capacity: 10000mAh; Dimensions: 101*66*27mm; Dual Input Triple Output; Two colors; LED Light",
-      "published": false
+      "published": true
     },
     {
       "id": "powerbank-solar-20k",
@@ -597,10 +664,22 @@
       "cartonQuantity": 125,
       "cartonPrice": 78750,
       "colors": [],
-      "image": "",
-      "description": "Charging Power: 10W; Charging Protocol: PD2.0; Battery Type: Polymer Li-ion; Capacity: 20000mAh; Dimensions: 101*66*27mm; Dual Input Triple Output; Two colors; LED Light",
       "badge": "popular",
-      "published": false
+      "images": [
+        "/images/Product Images/power bank-2W solar power bank - black.jpeg",
+        "/images/Product Images/power bank-2W solar power bank - white.jpeg",
+        "/images/Product Images/power bank-2W solar power bank.jpg"
+      ],
+      "unitPrice": 630,
+      "cartonQuantity": 125,
+      "cartonPrice": 78750,
+      "colors": [],
+      "images": [
+        "/images/Product Images/power bank-10W large capacity outdoor solar power bank -white.jpeg",
+        "/images/Product Images/power bank-10W large capacity outdoor solar power bank-black.jpeg"
+      ],
+      "description": "Charging Power: 10W; Charging Protocol: PD2.0; Battery Type: Polymer Li-ion; Capacity: 20000mAh; Dimensions: 101*66*27mm; Dual Input Triple Output; Two colors; LED Light",
+      "published": true
     },
     {
       "id": "earphones-typec",
@@ -613,9 +692,11 @@
       "cartonQuantity": 500,
       "cartonPrice": 72500,
       "colors": [],
-      "image": "",
+      "images": [
+        "/images/Product Images/wired earphones wired bluetooth earphones.jpg"
+      ],
       "description": "Interface: USB-C, 3.5mm direct plug",
-      "published": false
+      "published": true
     },
     {
       "id": "earphones-3.5mm",
@@ -628,10 +709,12 @@
       "cartonQuantity": 500,
       "cartonPrice": 90000,
       "colors": [],
-      "image": "",
+      "images": [
+        "/images/Product Images/wired earphones wired bluetooth earphones.jpg"
+      ],
       "description": "Interface: USB-C, 3.5mm direct plug",
       "badge": "best-seller",
-      "published": false
+      "published": true
     },
     {
       "id": "earphones-w895",
@@ -647,7 +730,10 @@
       "cartonQuantity": 100,
       "cartonPrice": 35000,
       "colors": [],
-      "image": "/images/Product Images/W895#digital display bluetooth earphones.jpg",
+      "images": [
+        "/images/Product Images/W895 digital display bluetooth earphones - black.jpg",
+        "/images/Product Images/W895 digital display bluetooth earphones - cream.jpg"
+      ],
       "description": "Range: 15m; Bluetooth: 5.4; Stereo sound; Three colors",
       "published": true
     },
@@ -665,7 +751,9 @@
       "cartonQuantity": 100,
       "cartonPrice": 30500,
       "colors": [],
-      "image": "/images/Product Images/4TH gen bluetooth earphones.jpg",
+      "images": [
+        "/images/Product Images/4TH gen bluetooth earphones.jpeg"
+      ],
       "description": "Range: 15m; Bluetooth: 5.0; Stereo sound; White",
       "badge": "new-arrival",
       "published": true
@@ -684,7 +772,9 @@
       "cartonQuantity": 100,
       "cartonPrice": 40000,
       "colors": [],
-      "image": "/images/Product Images/leather texture bluetooth earphones.jpg",
+      "images": [
+        "/images/Product Images/leather texture bluetooth earphones.jpg"
+      ],
       "description": "Range: 15m; Bluetooth: 5.4; Stereo sound; Four colors: Graphite Black, Cloud Gray, Navy Blue, Snow White",
       "published": true
     },
@@ -703,7 +793,10 @@
       "cartonQuantity": 100,
       "cartonPrice": 44000,
       "colors": [],
-      "image": "",
+      "images": [
+        "/images/Product Images/W895 digital display bluetooth earphones - black.jpg",
+        "/images/Product Images/W895 digital display bluetooth earphones - cream.jpg"
+      ],
       "description": "Range: 10m; Bluetooth: 5.3; Stereo sound; Three colors; Battery life: 8 hours",
       "published": false
     },
@@ -720,7 +813,9 @@
       "cartonQuantity": 1,
       "cartonPrice": 63000,
       "colors": [],
-      "image": "/images/Product Images/Sofa washable fabri sofa.jpg",
+      "images": [
+        "/images/Product Images/Sofa washable fabri sofa.jpg"
+      ],
       "description": "This sofa can be folded. It serves as a sofa for receiving guests, and can be unfolded into a bed for sleeping when needed. Dimension: Length: 2m x Depth: 1m x Height: 0.7m (Seat height: 0.4m). Various sizes available. Please contact us for details.",
       "badge": "featured",
       "published": true
@@ -737,7 +832,9 @@
       "cartonQuantity": 1,
       "cartonPrice": 7700,
       "colors": [],
-      "image": "/images/Product Images/Rug（area rug).jpg",
+      "images": [
+        "/images/Product Images/Rug（area rug).jpg"
+      ],
       "description": "Dimension: Length: 1.8m x Width: 2.5m. Various styles and colors available. Please contact us for inquiries.",
       "published": true
     }

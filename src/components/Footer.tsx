@@ -1,4 +1,4 @@
-import { ShoppingBag, MessageCircle } from 'lucide-react'
+import { MessageCircle } from 'lucide-react'
 
 export function Footer() {
   const categories = [
@@ -12,11 +12,11 @@ export function Footer() {
         <div className="grid grid-cols-1 xs:grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-6 md:gap-8">
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <ShoppingBag className="h-6 w-6 text-secondary-emerald" aria-hidden="true" />
-              <span className="font-heading font-bold text-lg md:text-xl">Nairobi Merchants</span>
+              <img src="/images/Kylin-Logo.jpg" alt="Kylin Logo" className="h-6 w-auto object-contain" />
+              <span className="font-heading font-bold text-lg md:text-xl">Kylin</span>
             </div>
             <p className="text-responsive text-neutral-light">
-              Your trusted supplier for quality home appliances, electronics, and lifestyle products in Nairobi.
+              Your trusted supplier for quality home appliances, electronics, and lifestyle products in Kenya.
             </p>
           </div>
 
@@ -47,7 +47,7 @@ export function Footer() {
             <div className="space-y-2 text-responsive">
               <p className="text-neutral-light">Nairobi, Kenya</p>
               <p className="text-neutral-light">+254 700 000 000</p>
-              <p className="text-neutral-light">info@nairobimerchants.co.ke</p>
+              <p className="text-neutral-light">info@kylin.co.ke</p>
             </div>
             <a
               href="https://wa.me/254700000000"
@@ -62,7 +62,7 @@ export function Footer() {
 
         <div className="border-t border-white/10 mt-6 md:mt-8 pt-6">
           <p className="text-center text-small text-neutral-light">
-            &copy; 2025 Nairobi Merchants. All rights reserved.
+            &copy; 2025 Kylin. All rights reserved.
           </p>
         </div>
       </div>

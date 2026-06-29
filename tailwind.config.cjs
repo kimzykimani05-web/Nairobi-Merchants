@@ -26,7 +26,8 @@ module.exports = {
         body: ['Inter', 'sans-serif']
       },
       backgroundImage: {
-        'hero-gradient': 'linear-gradient(135deg, #0F172A 0%, #2563EB 100%)',
+        'hero-gradient': 'linear-gradient(135deg, #0F172A 0%, #1E3A8A 30%, #2563EB 70%, #60A5FA 100%)',
+        'hero-premium': 'linear-gradient(135deg, #0F172A 0%, #1E3A8A 35%, #2563EB 70%, #60A5FA 100%)',
         'cta-gradient': 'linear-gradient(135deg, #2563EB 0%, #10B981 100%)'
       }
     },

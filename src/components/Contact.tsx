@@ -33,8 +33,8 @@ export function Contact() {
                 <h3 className="font-heading font-bold text-base md:text-lg text-primary-navy mb-1">
                   WhatsApp Business
                 </h3>
-                <p className="text-responsive text-neutral-dark">+254 700 000 000</p>
-                <Button variant="outline" size="sm" href="https://wa.me/254700000000" className="mt-2 min-h-[44px]">
+                <p className="text-responsive text-neutral-dark">+254 114 785 376</p>
+                <Button variant="outline" size="sm" href="https://wa.me/254114785376" className="mt-2 min-h-[44px]">
                   Chat Now
                 </Button>
               </div>
@@ -46,7 +46,7 @@ export function Contact() {
                 <h3 className="font-heading font-bold text-base md:text-lg text-primary-navy mb-1">
                   Phone
                 </h3>
-                <p className="text-responsive text-neutral-dark">+254 700 000 000</p>
+                <p className="text-responsive text-neutral-dark">+254 114 785 376</p>
               </div>
             </div>
 
@@ -56,7 +56,7 @@ export function Contact() {
                 <h3 className="font-heading font-bold text-base md:text-lg text-primary-navy mb-1">
                   Email
                 </h3>
-                <p className="text-responsive text-neutral-dark">info@nairobimerchants.co.ke</p>
+                <p className="text-responsive text-neutral-dark">johnndungugikonyo@gmail.com</p>
               </div>
             </div>
 
@@ -66,6 +66,8 @@ export function Contact() {
                 <h3 className="font-heading font-bold text-base md:text-lg text-primary-navy mb-1">
                   Location
                 </h3>
+                <p className="text-responsive text-neutral-dark">Koinange Street</p>
+                <p className="text-responsive text-neutral-dark">Kenya House Complex, Room T8</p>
                 <p className="text-responsive text-neutral-dark">Nairobi, Kenya</p>
               </div>
             </div>
@@ -76,7 +78,7 @@ export function Contact() {
                 <h3 className="font-heading font-bold text-base md:text-lg text-primary-navy mb-1">
                   Business Hours
                 </h3>
-                <p className="text-responsive text-neutral-dark">Mon - Sat: 8:00 AM - 6:00 PM</p>
+                <p className="text-responsive text-neutral-dark">Monday - Saturday: 8:00 AM - 6:00 PM</p>
               </div>
             </div>
           </motion.div>

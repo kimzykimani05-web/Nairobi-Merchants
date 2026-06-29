@@ -3,10 +3,10 @@ import { DollarSign, Shield, Package, MapPin, Zap, Headphones, Tag, CheckCircle 
 
 export function WhyChooseUs() {
   const features = [
-    { icon: DollarSign, title: 'Competitive Pricing', desc: 'Best prices in Nairobi market' },
+    { icon: DollarSign, title: 'Competitive Pricing', desc: 'Best prices in the market' },
     { icon: Shield, title: 'Premium Product Quality', desc: 'Tested and verified products' },
     { icon: Package, title: 'Wholesale Supply Available', desc: 'Bulk orders welcome' },
-    { icon: MapPin, title: 'Nairobi-Based Operations', desc: 'Local supplier, fast delivery' },
+    { icon: MapPin, title: 'Kenya-Based Operations', desc: 'Local supplier, fast delivery' },
     { icon: Zap, title: 'Fast Order Processing', desc: 'Quick response and shipping' },
     { icon: Headphones, title: 'Dedicated Customer Support', desc: 'Personal assistance always' },
     { icon: Tag, title: 'Bulk Discounts', desc: 'Volume-based savings' },
