@@ -32,7 +32,7 @@ const updatedLines = [];
 
 let inProduct = false;
 let braceCount = 0;
-let currentProductLines = [];
+let currentProductLines: string[] = [];
 
 for (const line of lines) {
   // Check if we're entering a product object

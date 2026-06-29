@@ -15,25 +15,25 @@ export function Hero() {
 
   const featuredProducts = [
     {
-      image: 'images/hero%20section%20images/Stainless%20Steel%20Electric%20Kettle.jfif',
+      image: '/images/hero section images/Stainless Steel Electric Kettle.jfif',
       name: 'Stainless Steel Electric Kettle',
       price: 422,
       category: 'Kitchen Appliances'
     },
     {
-      image: 'images/hero%20section%20images/Solar%20Power%20Bank.jpg',
+      image: '/images/hero section images/Solar Power Bank.jpg',
       name: 'Solar Power Bank',
       price: 1200,
       category: 'Electronics'
     },
     {
-      image: 'images/hero%20section%20images/Bluetooth%20Earbuds.jpg',
+      image: '/images/hero section images/Bluetooth Earbuds.jpg',
       name: 'Bluetooth Earbuds',
       price: 850,
       category: 'Mobile Accessories'
     },
     {
-      image: 'images/hero%20section%20images/Foldable%20Sofa.jfif',
+      image: '/images/hero section images/Foldable Sofa.jfif',
       name: 'Foldable Sofa',
       price: 3500,
       category: 'Furniture'

@@ -10,6 +10,7 @@ export interface Product {
   badge?: 'best-seller' | 'popular' | 'new-arrival' | 'featured'
   image: string
   description: string
+  published?: boolean
 }
 
 export interface Category {

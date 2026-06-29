@@ -20,10 +20,10 @@ export function ProductCard({ image, name, price, category }: ProductCardProps) 
           alt={name} 
           className="w-full h-48 object-contain p-6"
         />
-        <div className="absolute bottom-4 left-4 right-4 text-white">
+        <div className="absolute bottom-4 left-4 right-4 text-primary-navy">
           <h3 className="font-semibold">{name}</h3>
           <p className="text-sm mt-1">KES {price}</p>
-          <span className="text-xs bg-white/20 rounded-full px-2 py-0.5">{category}</span>
+          <span className="text-xs bg-white/40 rounded-full px-2 py-0.5">{category}</span>
         </div>
       </div>
     </motion.div>

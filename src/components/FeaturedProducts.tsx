@@ -10,7 +10,7 @@ export function FeaturedProducts() {
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null)
   const [isModalOpen, setIsModalOpen] = useState(false)
   
-  const featuredProducts = products.filter(p => p.badge && ['best-seller', 'popular', 'new-arrival'].includes(p.badge)).slice(0, 4)
+  const featuredProducts = products.filter(p => p.badge && ['best-seller', 'popular', 'new-arrival', 'featured'].includes(p.badge)).slice(0, 4)
 
   const handleQuickView = (product: Product) => {
     setSelectedProduct(product)
