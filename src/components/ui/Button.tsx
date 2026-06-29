@@ -8,6 +8,7 @@ interface ButtonProps {
   href?: string
   className?: string
   type?: 'button' | 'submit'
+  ariaLabel?: string
 }
 
 export function Button({ 
@@ -17,7 +18,8 @@ export function Button({
   onClick, 
   href,
   className = '',
-  type = 'button'
+  type = 'button',
+  ariaLabel
 }: ButtonProps) {
   const baseClasses = 'font-medium rounded-lg transition-all duration-300 inline-flex items-center justify-center gap-2 focus:outline-none focus:ring-2 focus:ring-offset-2'
   
@@ -40,14 +42,14 @@ export function Button({
   
   if (href) {
     return (
-      <a href={href} className={classes} target="_blank" rel="noopener noreferrer">
+      <a href={href} className={classes} target="_blank" rel="noopener noreferrer" aria-label={ariaLabel}>
         {children}
       </a>
     )
   }
   
   return (
-    <button type={type} onClick={onClick} className={`${classes} touch-target min-h-[44px]`}>
+    <button type={type} onClick={onClick} className={`${classes} touch-target min-h-[44px]`} aria-label={ariaLabel}>
       {children}
     </button>
   )

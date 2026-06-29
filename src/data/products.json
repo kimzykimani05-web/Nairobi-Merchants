@@ -591,7 +591,6 @@
         "/images/Product Images/power bank-16W large capacity outdoor solar power bank-white.jpeg"
       ],
       "description": "Charging Power: 22.5W; Charging Protocol: PD3.0; Battery Type: Polymer Li-ion; Capacity: 100000mAh; Dimensions: 149*71.5*43mm; Dual Input Triple Output; Two colors; LED Light",
-      "badge": "popular",
       "published": false
     },
     {
@@ -666,18 +665,14 @@
       "colors": [],
       "badge": "popular",
       "images": [
-        "/images/Product Images/power bank-2W solar power bank - black.jpeg",
-        "/images/Product Images/power bank-2W solar power bank - white.jpeg",
-        "/images/Product Images/power bank-2W solar power bank.jpg"
+        "/images/Product Images/power bank-10W large capacity outdoor solar power bank -white.jpeg",
+        "/images/Product Images/power bank-10W large capacity outdoor solar power bank-black.jpeg"
       ],
       "unitPrice": 630,
       "cartonQuantity": 125,
       "cartonPrice": 78750,
       "colors": [],
-      "images": [
-        "/images/Product Images/power bank-10W large capacity outdoor solar power bank -white.jpeg",
-        "/images/Product Images/power bank-10W large capacity outdoor solar power bank-black.jpeg"
-      ],
+      "badge": "popular",
       "description": "Charging Power: 10W; Charging Protocol: PD2.0; Battery Type: Polymer Li-ion; Capacity: 20000mAh; Dimensions: 101*66*27mm; Dual Input Triple Output; Two colors; LED Light",
       "published": true
     },

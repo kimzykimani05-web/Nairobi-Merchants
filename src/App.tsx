@@ -7,8 +7,12 @@ import { WhyChooseUs } from './components/WhyChooseUs'
 import { Testimonials } from './components/Testimonials'
 import { DownloadCatalogue } from './components/DownloadCatalogue'
 import { Contact } from './components/Contact'
+import { CallToAction } from './components/CallToAction'
+import { Newsletter } from './components/Newsletter'
 import { Footer } from './components/Footer'
+import { TrustPayment } from './components/TrustPayment'
 import { WhatsAppButton } from './components/WhatsAppButton'
+import { BackToTop } from './components/BackToTop'
 
 export default function App() {
   return (
@@ -23,9 +27,13 @@ export default function App() {
         <Testimonials />
         <DownloadCatalogue />
         <Contact />
+        <CallToAction />
+        <Newsletter />
       </main>
       <Footer />
+      <TrustPayment />
       <WhatsAppButton />
+      <BackToTop />
     </div>
   )
 }

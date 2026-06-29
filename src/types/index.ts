@@ -8,7 +8,7 @@ export interface Product {
   cartonPrice: number
   colors: string[]
   images: string[]
-  badge?: 'best-seller' | 'popular' | 'new-arrival' | 'featured'
+  badge?: 'best-seller' | 'popular' | 'new-arrival' | 'featured' | 'limited' | 'wholesale' | 'fast-selling' | 'trending' | string
   description: string
   published?: boolean
 }
